@@ -21,4 +21,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('books/', include('apps.bookmodule.urls')),
 ]
-
