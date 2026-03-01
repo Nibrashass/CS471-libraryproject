@@ -1,0 +1,119 @@
+/* ===== Task 1 - Links ===== */
+
+.link-block {
+  display: block;
+  padding: 18px;
+  text-align: center;
+}
+
+/* Background colors */
+#block1 { background-color: #aef3bd; }
+#block2 { background-color: #4f4f4f; }
+#block3 { background-color: #000000; }
+
+/* Link colors (normal + visited) */
+#link1:link,
+#link1:visited {
+  color: red;
+  text-decoration: underline;
+}
+
+#link2:link,
+#link2:visited {
+  color: #ffd400;
+  text-decoration: underline;
+}
+
+#link3:link,
+#link3:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Hover */
+#link1:hover,
+#link2:hover,
+#link3:hover {
+  opacity: 0.85;
+}
+
+/* Active */
+#link1:active,
+#link2:active,
+#link3:active {
+  opacity: 0.7;
+}
+
+/* ===== Task 2 - Formatting ===== */
+#fmt-title {
+  color: darkgreen;
+  background-color: #f3f3db;
+  padding: 8px 12px;
+}
+
+/* ===== Task 3 - Listing ======== */
+#list-title {
+  background-color: #5f9ea0;
+  color: white;
+  padding: 10px 12px;
+}
+/* ================================ */
+/* ===== Task 4 - Tables ========= */
+/* ================================ */
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #777;
+  padding: 4px 6px;
+  text-align: center;
+}
+
+/* Table 1 */
+#t1 {
+  margin: 0 auto;
+  font-size: 12px;
+  border-collapse: separate;   /* مهم جدًا */
+  border-spacing: 0;
+}
+
+#t1 th,
+#t1 td {
+  border: 3px double #888;     /* مزدوج واضح */
+  padding: 4px 6px;
+  text-align: center;
+}
+#t1 caption {
+  font-weight: bold;        /* العنوان غامق */
+}
+
+/* Table 2 */
+#t2-wrap {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#t2 {
+  margin: 0 auto;
+  width: 720px;
+}
+
+#camel-title {
+  text-align: center;
+  font-weight: bold;
+  padding: 12px;
+}
+
+#imgcell {
+  width: 220px;
+  text-align: center;
+}
+
+#imgcell img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
