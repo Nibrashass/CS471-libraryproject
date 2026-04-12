@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}Lab 8 Task 5{% endblock title %}
+
+{% block content %}
+<h1>Lab 8 - Task 5</h1>
+<h3>Aggregation Functions</h3>
+
+<ul>
+    <li>Number of books: {{ stats.count_books }}</li>
+    <li>Total price: {{ stats.total_price }}</li>
+    <li>Average price: {{ stats.avg_price }}</li>
+    <li>Maximum price: {{ stats.max_price }}</li>
+    <li>Minimum price: {{ stats.min_price }}</li>
+</ul>
+{% endblock content %}

@@ -75,18 +75,18 @@ td, th {
 #t1 {
   margin: 0 auto;
   font-size: 12px;
-  border-collapse: separate;   /* مهم جدًا */
+  border-collapse: separate;   
   border-spacing: 0;
 }
 
 #t1 th,
 #t1 td {
-  border: 3px double #888;     /* مزدوج واضح */
+  border: 3px double #888;    
   padding: 4px 6px;
   text-align: center;
 }
 #t1 caption {
-  font-weight: bold;        /* العنوان غامق */
+  font-weight: bold;        
 }
 
 /* Table 2 */
