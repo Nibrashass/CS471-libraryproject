@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students2</title>
+</head>
+<body>
+
+<h1>Students2 List</h1>
+
+<a href="{% url 'add_student2' %}">Add Student2</a>
+
+<hr>
+
+{% for student in students %}
+
+<p>Name: {{ student.name }}</p>
+
+<p>Age: {{ student.age }}</p>
+
+<p>
+Addresses:
+{% for address in student.addresses.all %}
+    {{ address.city }}
+{% endfor %}
+</p>
+
+<a href="{% url 'update_student2' student.id %}">Update</a>
+
+<a href="{% url 'delete_student2' student.id %}">Delete</a>
+
+<hr>
+
+{% endfor %}
+
+</body>
+</html>
