@@ -12,4 +12,7 @@ urlpatterns = [
     path('students2/delete/<int:id>/', views.delete_student2, name='delete_student2'),
     path('products/', views.product_list, name='product_list'),
     path('products/add/', views.add_product, name='add_product'),
+    path('users/register', views.register, name='register'),
+    path('users/login', views.user_login, name='login'),
+    path('users/logout', views.user_logout, name='logout'),
 ]
